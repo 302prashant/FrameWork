@@ -12,6 +12,7 @@ public class Demo {
 		driver.get("https://www.google.com/");
 		System.out.println("opning the browser");
 		driver.close();
+		System.out.println("close the browser");
 	}
 
 }
